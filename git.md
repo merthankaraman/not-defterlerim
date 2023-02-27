@@ -68,7 +68,7 @@ Git'in github'a bağlanması
 REPO="link"
 git remote add origin ${REPO}.git
 git branch -M main
-pit push -u origin main
+git push -u origin main
 git pull origin main
 ```
 <br/><br/>
