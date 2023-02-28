@@ -33,6 +33,8 @@ Dallanma ayarları
 git switch main
 git branch
 git branch feat
+git branch -D <branch that will delete>
+git branch -m <branch's new name>
 ```
 <br/><br/>
 Başka düğümleri kontrol etme
