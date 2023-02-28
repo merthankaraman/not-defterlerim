@@ -26,6 +26,14 @@ git commit -m "Mesaj"
 git restore <file>
 git diff 
 ```
+<br/><br/>
+__Eksik şekilde commit yapıldıysa__
+<br/>
+Önce eksik dosya düzenlenir ve sıradaki adımlar gerçekleştirilir
+```bash
+git add .
+git commit --amend
+```
 
 # Detaylı ayarlar
 Dallanma ayarları
